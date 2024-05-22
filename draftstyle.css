@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('pxfuel (1).jpg');
+  backdrop-filter: blur(2px);
+}
+
+.slambook {
+  width: 370px;
+  height: 350px;
+  margin-top: 80px;
+  margin-left: 400px;
+  padding: 40px;
+  border: 1px solid #b4552b;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  scrollbar-color: #b2562f transparent;
+}
+
+.page {
+  max-height: 350px;
+  overflow-y: auto; 
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #b4552b;
+  border-radius: 5px;
+  background-color: #fcc165;
+}
+
+option {
+    background-color: #fcc165;
+}
+
+input.invalid {
+  border: 2px solid red; 
+}
+
+select:hover {
+  border: 2px solid #b4552b;
+  border-radius: 5px;
+  background-color: #fcc165;
+}
+
+input:hover {
+  border: 2px solid #b4552b;
+  border-radius: 5px;
+  background-color: #fcc165;
+}
+
+option:hover {
+  border: 2px solid #b4552b;
+  border-radius: 5px;
+  background-color: #fcc165;
+}
+
+button {
+  padding: 10px;
+  background-color: #b2562f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #fcc165;
+}
+
+button:hover {
+  background-color: #fcc165;
+  border: 2px solid #b2562f;
+}
